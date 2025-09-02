@@ -5,6 +5,7 @@ import { CiMenuBurger } from "react-icons/ci";
 import Hero from './components/Hero';
 import About from './components/About';
 import Service from './components/Service';
+import Skill from './components/Skill';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       < Hero />
       < About />
       < Service />
+      < Skill />
     </>
     
   )
