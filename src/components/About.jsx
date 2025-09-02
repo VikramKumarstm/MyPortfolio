@@ -5,7 +5,7 @@ import Button from './Button/Button'
 export default function About() {
   return (
     <div>
-        <div className='w-full h-full sm:h-screen bg-[#0F0E47] flex justify-center'>
+        <div className='w-full h-full sm:h-screen bg-[#0F0E47] flex justify-center sm:pb-0 pb-8'>
 
             <div className='w-[80%] sm:flex items-center text-white'>
                 <div className="basis-[40%] pt-8 mb-8 sm:mb-0 sm:pt-0">
@@ -21,18 +21,18 @@ export default function About() {
                         Consultancy Services (TCS), reflecting my dedication, learning, and growth in 
                         the IT field.
                     </p>
-                    <div className="flex border-2 border-indigo-500 rounded-xl px-4 py-4 mb-6">
+                    <div className="sm:flex border-2 border-indigo-500 rounded-xl px-4 py-4 mb-6">
                         <ul className='pr-8'>
-                            <li className='text-gray-400'><span className='text-white'>Name:</span> Vikram Kumar</li>
-                            <li className='text-gray-400'><span className='text-white'>Phone:</span> +91 960 897-8903</li>
-                            <li className='text-gray-400'><span className='text-white'>Experience:</span> 1 Years</li>
-                            <li className='text-gray-400'><span className='text-white'>Github:</span> <a href="https://github.com/VikramKumarstm">vikramkumarstm</a></li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Name:</span> Vikram Kumar</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Phone:</span> +91 960 897-8903</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Experience:</span> 1 Years</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Github:</span> <a href="https://github.com/VikramKumarstm">vikramkumarstm</a></li>
                         </ul>
                         <ul>
-                            <li className='text-gray-400'><span className='text-white'>Age:</span> 21</li>
-                            <li className='text-gray-400'><span className='text-white'>Address:</span> Rajeev Nagar, Patna, 800024</li>
-                            <li className='text-gray-400'><span className='text-white'>Freelance:</span> Available</li>
-                            <li className='text-gray-400'><span className='text-white'>Worked :</span> OriginKonnect, ExporterAI, BTG</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Age:</span> 21</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Address:</span> Rajeev Nagar, Patna, 800024</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Freelance:</span> Available</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Worked :</span> OriginKonnect, ExporterAI, BTG</li>
                         </ul>
                     </div>
 

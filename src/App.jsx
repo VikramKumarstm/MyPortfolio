@@ -4,6 +4,7 @@ import Header from './components/Header'
 import { CiMenuBurger } from "react-icons/ci";
 import Hero from './components/Hero';
 import About from './components/About';
+import Service from './components/Service';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       < Header />
       < Hero />
       < About />
+      < Service />
     </>
     
   )
