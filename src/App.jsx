@@ -8,6 +8,7 @@ import Service from './components/Service';
 import Skill from './components/Skill';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       < Skill />
       < Project />
       < Contact />
+      < Footer />
     </>
     
   )

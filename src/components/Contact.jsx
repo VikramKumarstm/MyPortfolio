@@ -34,7 +34,7 @@ function Contact() {
                         </p>
                         <ul>
                             <li className='text-xl font-medium text-indigo-500'>Email</li>
-                            <li><a href="tel:+919608978903" className='text-sm font-normal text-gray-400'>vikramthakurabm23@gmail.com</a></li>
+                            <li><a href="mailto:vikramthakurabm23@gmail.com" className='text-sm font-normal text-gray-400'>vikramthakurabm23@gmail.com</a></li>
                         </ul>
                     </div>
 
@@ -44,7 +44,7 @@ function Contact() {
                         </p>
                         <ul>
                             <li className='text-xl font-medium text-indigo-500'>Instagram</li>
-                            <li><a href="tel:+919608978903" className='text-sm font-normal text-gray-400'>vikramthakur8838</a></li>
+                            <li><a href="https://www.instagram.com/vikramthakur8838/" className='text-sm font-normal text-gray-400'>vikramthakur8838</a></li>
                         </ul>
                     </div>
 
@@ -54,7 +54,7 @@ function Contact() {
                         </p>
                         <ul>
                             <li className='text-xl font-medium text-indigo-500'>Address</li>
-                            <li><a href="tel:+919608978903" className='text-sm font-normal text-gray-400'>Rajeev Nagar, Patna - 800024</a></li>
+                            <li><a href="https://www.google.com/maps/place/Road+No.+6,+Patna,+Bihar/@25.6214554,85.0868278,17z/data=!3m1!4b1!4m6!3m5!1s0x39ed5784494bb741:0xadbf0a07bef2679!8m2!3d25.6214554!4d85.0894027!16s%2Fg%2F11hyn3hb9t?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D" className='text-sm font-normal text-gray-400'>Rajeev Nagar, Patna - 800024</a></li>
                         </ul>
                     </div>
                     
