@@ -6,11 +6,6 @@ import { FaNodeJs } from "react-icons/fa";
 import { TbApiApp } from "react-icons/tb";
 import { SiAuthelia } from "react-icons/si";
 
-
-
-
-
-
 function Service() {
   return (
     <div className='w-full h-full flex justify-center bg-[#272757] text-white'>
