@@ -21,7 +21,6 @@ export default function () {
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/services'>Services</Link></li>
                     <li><Link to='/certificates'>Certificate</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
                 </ul>
             </div>
 
@@ -48,9 +47,7 @@ export default function () {
                     <li className='py-1'><Link to='/'>Home</Link></li>
                     <li className='py-2'><Link to='/about'>About</Link></li>
                     <li className='py-2'><Link to='/services'>Services</Link></li>
-                    <li className='py-2'><Link to='/certificates'>Certificate</Link></li>
-                    <li className='py-2'><Link to='/contact'>Contact</Link></li>
-                </ul>
+                    <li className='py-2'><Link to='/certificates'>Certificate</Link></li>                </ul>
             </div>
 
             <div className='pt-2'>

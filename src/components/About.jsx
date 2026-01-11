@@ -34,7 +34,7 @@ export default function About() {
                         </ul>
                         <ul>
                             <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Age:</span> 21</li>
-                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Address:</span> Rajeev Nagar, Patna, 800024</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Address:</span> Noida, 201306</li>
                             <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Freelance:</span> Available</li>
                             <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Worked :</span> OriginKonnect, ExporterAI, BTG</li>
                         </ul>
