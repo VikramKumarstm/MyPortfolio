@@ -1,8 +1,12 @@
 import React from 'react'
 import myImage from '../assets/images/vikram-port.png'
 import Button from './Button/Button'
+import { toast, ToastContainer } from 'react-toastify';
 
 export default function About() {
+
+    const notify = () => toast.warning("Something went wrong, Please try after some time!");
+
   return (
     <div>
         <div className='w-full h-full sm:h-screen bg-[#0F0E47] flex justify-center sm:pb-0 pb-8'>
@@ -25,7 +29,7 @@ export default function About() {
                         <ul className='pr-8'>
                             <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Name:</span> Vikram Kumar</li>
                             <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Phone:</span> +91 960 897-8903</li>
-                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Experience:</span> 1 Years</li>
+                            <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Experience:</span> 1 Year+</li>
                             <li className='text-gray-400 sm:pb-0 pb-4'><span className='text-white'>Github:</span> <a href="https://github.com/VikramKumarstm">vikramkumarstm</a></li>
                         </ul>
                         <ul>
@@ -36,11 +40,12 @@ export default function About() {
                         </ul>
                     </div>
 
-                    < Button text="Download CV" />
+                    <Button text="Download CV" onClick={notify} />
                 </div>
             </div>
 
         </div>
+        <ToastContainer />
     </div>
   )
 }

@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import Button from './Button/Button'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from 'react-router-dom';
 
 export default function () {
 
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#0F0E47] w-full flex-col sm:flex-row flex items-center sm:justify-center fixed">
+    <div className="bg-[#0F0E47] w-full flex-col sm:flex-row flex items-center sm:justify-center fixed z-20">
         <nav className='h-16 w-[80%] flex items-center justify-between'>
             <div className="text-xl sm:text-2xl text-white font-bold sm:basis-[25%]">
                 Vikram Kumar
@@ -16,11 +17,11 @@ export default function () {
 
             <div className="basis-[55%] hidden sm:block">
                 <ul className='flex justify-between text-gray-100 text-lg'>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Certificate</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/services'>Services</Link></li>
+                    <li><Link to='/certificates'>Certificate</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                 </ul>
             </div>
 
@@ -44,11 +45,11 @@ export default function () {
         <div className={`${isOpen ? "block" : "hidden"} block sm:hidden bg-gray-400 w-full pl-[10%] py-6`}>
             <div>
                 <ul className='text-gray-100 text-lg'>
-                    <li className='py-1'><a href="#">Home</a></li>
-                    <li className='py-2'><a href="#">About</a></li>
-                    <li className='py-2'><a href="#">Services</a></li>
-                    <li className='py-2'><a href="#">Certificate</a></li>
-                    <li className='py-2'><a href="#">Contact</a></li>
+                    <li className='py-1'><Link to='/'>Home</Link></li>
+                    <li className='py-2'><Link to='/about'>About</Link></li>
+                    <li className='py-2'><Link to='/services'>Services</Link></li>
+                    <li className='py-2'><Link to='/certificates'>Certificate</Link></li>
+                    <li className='py-2'><Link to='/contact'>Contact</Link></li>
                 </ul>
             </div>
 
