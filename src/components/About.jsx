@@ -5,10 +5,10 @@ import { toast, ToastContainer } from 'react-toastify';
 
 export default function About() {
 
-    const notify = () => toast.warning("Something went wrong, Please try after some time!");
+    const notify = () => toast.success("Downloaded successfully");
 
   return (
-    <div>
+    <div className='relative top-0'>
         <div className='w-full h-full sm:h-screen bg-[#0F0E47] flex justify-center sm:pb-0 pb-8'>
 
             <div className='w-[80%] sm:flex items-center text-white'>
@@ -40,7 +40,9 @@ export default function About() {
                         </ul>
                     </div>
 
-                    <Button text="Download CV" onClick={notify} />
+                    <a href="/resume.pdf" download>
+                        <Button text="Download CV" onClick={notify} />
+                    </a>
                 </div>
             </div>
 

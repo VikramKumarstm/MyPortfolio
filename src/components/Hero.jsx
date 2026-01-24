@@ -8,7 +8,7 @@ import myImage from '../assets/images/vikram-port.png'
 export default function Hero() {
   return (
     <div className='w-full h-full sm:h-[calc(100vh+45px)] flex justify-center bg-[#272757]'>
-        <div className='w-[80%] h-full sm:flex items-center justify-between'>
+        <div className='relative top-20 w-[80%] h-full sm:flex items-center justify-between'>
             <div className="basis-[60%]">
                 <span className='w-[50px] h-[2px] bg-indigo-500 inline-block'></span>
                 <p className='inline-block text-indigo-500 text-sm font-semibold'>Welcome to Dreamer</p>
